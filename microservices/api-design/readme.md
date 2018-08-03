@@ -203,7 +203,7 @@ Instead, for many situations, you can create additional API calls.
 For example, instead of updating the nodes for a cluster in the same
 call as you might update its name:
 
-```
+```javascript
   UpdateCluster({
     cluster: {
       id: $clusterID,
@@ -219,7 +219,7 @@ call as you might update its name:
 
 You can:
 
-```
+```javascript
   UpdateClusterNodes({
     id: $clusterId,
     nodes: [
@@ -231,7 +231,7 @@ You can:
 
 Or:
 
-```
+```javascript
   AddNodeToCluster({
     clusterID: $clusterID,
     node: {id: $node2, name: "replica"},
@@ -250,7 +250,7 @@ an ID reference to another datatype. In those cases embed an
 expanded version of the referenced object.
 
 For example, instead of returning:
-```
+```javascript
   {
     cluster: {
       id: $clusterID,
@@ -262,7 +262,7 @@ For example, instead of returning:
 You can expect that your user is likely to want the information
 about the Cloud as well, and return:
 
-```
+```javascript
   {
     cluster: {
       id: $clusterID,
@@ -279,7 +279,7 @@ about the Cloud as well, and return:
 
 For your Update calls, eg. UpdateCluster, your requests should look
 like:
-```
+```javascript
   {
     cluster: $MyCluster,
   }
@@ -302,7 +302,7 @@ to make an exception to how your methods or requests or responses
 are built, make it very obvious and very documented.
 
 Example (pseudocode),
-```
+```golang
   // StreamClusterLogs is a streaming interface for the cluster
   // logs.
   // NOTE(termie): This requires a different call structure to
