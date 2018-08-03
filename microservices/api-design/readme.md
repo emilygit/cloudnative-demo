@@ -57,7 +57,9 @@ Some things are good ideas for any API. The goal of most of them
 is to make it easy for your user (often yourself!) to guess what
 something does and how to use it without having to look at docs.
 
-Here is a [link to a video](https://www.youtube.com/watch?v=cYf6VsbziBE) with some content we find interesting
+Here is a a video with some content we find interesting:
+
+[![amazing video](http://img.youtube.com/vi/cYf6VsbziBE/0.jpg)](http://www.youtube.com/watch?v=cYf6VsbziBE)
 
 ## Consistent Method Naming
 
