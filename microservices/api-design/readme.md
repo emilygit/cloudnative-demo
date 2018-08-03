@@ -78,6 +78,8 @@ Here is an image that might represent this
 
 ### Tonight's Menu
 
+Here is another video with just a link https://video.oracle.com/detail/video/5763364889001/unified-finance-and-hr-assessment-tool?autoStart=true&q=Unified%20assessment
+
 #### Starters
 
 Almost every API will need to implement a variety of CRUD operations;
