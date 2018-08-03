@@ -1,0 +1,65 @@
+[{
+        "title": "Application Development",
+        "description": "",
+        "logoUrl": "",
+        "fragment": "app-dev",
+        "subcategories": [{
+                "title": "Microservices",
+                "description": "",
+                "logoUrl": "",
+                "fragment": "microservices",
+                "solutions": [{
+                        "title": "API Design and Implementation",
+                        "description": "",
+                        "logoUrl": "",
+                        "githubUrl": "https://github.com/emilygit/cloudnative-demo/microservices/api-design",
+                        "fragment": "api-design-implementation",
+                        "featured": 1,
+                        "overview": {
+                            "title": "introduction to",
+                            "file": "readme.md"
+                        },
+                        "tutorials": [
+                            {
+                                "title": "getting started",
+                                "file": "getting-started.md"
+                            },
+                            {
+                                "title": "",
+                                "file": ""
+                            }
+                        ],
+                        "whitepapers": [],
+                        "guides": [],
+                        "faqs": [],
+                        "caseStudies": []
+                    },
+                    {
+                        "title": "GRPC and Protocol Buffers",
+                        "description": "",
+                        "logoUrl": "",
+                        "githubUrl": "",
+                        "overview": {},
+                        "tutorials": {},
+                        "whitepapers": [],
+                        "guides": [],
+                        "faqs": [],
+                        "caseStudies": []
+                    }
+                ]
+            },
+            {
+                "title": "Package Management",
+                "description": "",
+                "logoUrl": "",
+                "solutions": []
+            }
+        ]
+    },
+    {
+        "title": "Distributed Systems Management",
+        "description": "",
+        "logoUrl": "",
+        "subcategories": []
+    }
+]
