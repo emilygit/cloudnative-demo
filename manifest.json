@@ -19,20 +19,6 @@
                             "title": "introduction to",
                             "file": "readme.md"
                         },
-                        "tutorials": [
-                            {
-                                "title": "getting started",
-                                "file": "getting-started.md"
-                            },
-                            {
-                                "title": "",
-                                "file": ""
-                            }
-                        ],
-                        "whitepapers": [],
-                        "guides": [],
-                        "faqs": [],
-                        "caseStudies": []
                     },
                     {
                         "title": "GRPC and Protocol Buffers",
@@ -40,11 +26,6 @@
                         "logoUrl": "",
                         "githubUrl": "",
                         "overview": {},
-                        "tutorials": {},
-                        "whitepapers": [],
-                        "guides": [],
-                        "faqs": [],
-                        "caseStudies": []
                     }
                 ]
             },
