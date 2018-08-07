@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "section": "tutorials",
+      "files": [
+        {
+          "title": "Getting Started",
+          "file": "getting-started.md"
+        }
+      ]
+    },
+    {
+      "section": "guides",
+      "files": [
+        {
+          "title": "Implementing API Design",
+          "file": "implementation.md"
+        }
+      ]
+    },
+    {
+      "section": "whitepapers",
+      "files": [
+        {
+          "title": "API Design White paper",
+          "file": "whitepaper.pdf"
+        }
+      ]
+    }
+  ]
+}
