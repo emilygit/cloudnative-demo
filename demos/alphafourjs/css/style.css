@@ -1,0 +1,250 @@
+
+body{
+  background:#eee;
+  padding: 0;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px !important;
+
+}
+
+#learn {
+  margin-top: 10px;
+}
+
+#game-header h1{
+  text-align:center;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+p.info{
+  text-align:center;
+  width:400px;
+  margin:0 auto;
+  font-size:12px;
+  font-weight:bold;
+  color:#666;
+  margin-bottom:20px;
+}
+
+.modal-backdrop {
+  height: 12000px;
+}
+
+#game-header{
+  margin:0 auto;
+  margin-bottom:50px;
+  padding-bottom:5px;
+  border-bottom: 1px solid black;
+}
+
+#game-buttons{
+  margin:0 auto;
+  padding-top: 0px;
+  font-size: 16px;
+}
+
+#evaluation {
+  margin:0 auto;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+#result {
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+  height: 100px;
+  width: 640px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 750px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #game-buttons{
+  }
+  .container {
+    padding: 0;
+  }
+  #result {
+    height: 50px;
+  }
+}
+
+#game-base{
+  width:640px;  
+  margin:0 auto;
+  padding-top: 0px;
+}
+
+#board {
+  margin:0 auto;
+}
+
+.game-table{
+  background:url("../board.svg") 0 0 no-repeat;
+  background-size: 640px 548px;
+  background-origin: content-box;
+  width:640px;
+  height:475px;
+  position:relative;
+  border-radius:10px;
+  background-clip: border-box;
+}
+
+#game-table-back{
+  z-index: -10;
+  left: 3px;
+  margin-bottom: -472px;
+  filter: hue-rotate(20deg) brightness(0.65);
+  border-radius:10px;
+}
+
+#buttons {
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+button {
+  border: 1px solid black;
+  margin: 2px;
+}
+
+#scores {
+  width: 640px;
+  margin:0 auto;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+#scores > div {
+  display: inline-block;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+  width: 85px;
+}
+
+
+.disc{
+  position:absolute;
+  z-index:-1;
+  top:-74px;
+  left:14px;
+  width:71px;
+  height:71px;
+  margin-top: 0px;
+  margin-left: 0px;
+  box-sizing: border-box;
+  border-radius:70px;
+  transition-property: top, left;
+  transition-duration: 0.3s, 0.0s;
+}
+
+.disc.red{
+  background:#e00000;
+  border:16px solid #b00000;
+  box-shadow: 2px -2px #800000;
+}
+
+.disc.yellow{
+  background:#f0e000;
+  border:16px solid #b0a000;
+  box-shadow: 2px -2px #807000;
+}
+
+select {
+  border: 1px solid black;
+}
+.select-group {
+  margin-bottom: 10px;
+}
+
+.autoplay {
+  margin-left: 10px;
+}
+.autoplay-label {
+  padding: 0px 5px;
+}
+
+.red-model select {
+  color: black;
+}
+
+.red-model {
+  border: 1px solid #333;
+  background: #e00000;
+  border-radius:10px;
+  padding: 7px;
+  color: white;
+  line-height: 1.8em;
+}
+.red-model select, .yellow-model select {
+  font-size: 14.5px;
+  width: 100%;
+}
+
+.yellow-model {
+  border: 1px solid #333;
+  background: #f0e000;
+  border-radius:10px;
+  padding: 7px;
+  line-height: 1.8em;
+}
+
+#spacer {
+  height: 13px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  margin-top: 10px;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 15px; /* Specified height */
+  background: white; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  border-radius:4px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 18px; /* Set a specific slider handle width */
+  height: 29px; /* Slider handle height */
+  background: #000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius:4px;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px; /* Set a specific slider handle width */
+  height: 29px; /* Slider handle height */
+  background: #000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius:4px;
+}
