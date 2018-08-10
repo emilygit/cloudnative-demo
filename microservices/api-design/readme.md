@@ -59,7 +59,7 @@ something does and how to use it without having to look at docs.
 
 Here is a a video with some content we find interesting:
 
-[![amazing video](http://img.youtube.com/vi/cYf6VsbziBE/0.jpg)](http://www.youtube.com/watch?v=cYf6VsbziBE)
+![youtube video](http://www.youtube.com/watch?v=cYf6VsbziBE)
 
 ## Consistent Method Naming
 
@@ -78,7 +78,7 @@ Here is an image that might represent this
 
 ### Tonight's Menu
 
-Here is another video with just a link https://video.oracle.com/detail/video/5763364889001/unified-finance-and-hr-assessment-tool?autoStart=true&q=Unified%20assessment
+Here is another video with just a link ![brightcove video](https://video.oracle.com/detail/video/5599577320001)
 
 #### Starters
 
