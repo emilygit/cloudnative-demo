@@ -1,46 +1,61 @@
-[{
-        "title": "Application Development",
-        "description": "",
-        "logoUrl": "",
-        "fragment": "app-dev",
-        "subcategories": [{
-                "title": "Microservices",
-                "description": "",
-                "logoUrl": "",
-                "fragment": "microservices",
-                "solutions": [{
-                        "title": "API Design and Implementation",
-                        "description": "",
-                        "logoUrl": "",
-                        "githubUrl": "https://github.com/emilygit/cloudnative-demo/microservices/api-design",
-                        "fragment": "api-design-implementation",
-                        "featured": 1,
-                        "overview": {
-                            "title": "introduction to",
-                            "file": "readme.md"
-                        },
-                    },
-                    {
-                        "title": "GRPC and Protocol Buffers",
-                        "description": "",
-                        "logoUrl": "",
-                        "githubUrl": "",
-                        "overview": {},
-                    }
-                ]
-            },
-            {
-                "title": "Package Management",
-                "description": "",
-                "logoUrl": "",
-                "solutions": []
-            }
-        ]
-    },
-    {
-        "title": "Distributed Systems Management",
-        "description": "",
-        "logoUrl": "",
-        "subcategories": []
-    }
-]
+{
+	"contents": [{
+			"title": "Application Development",
+			"description": "",
+			"logoUrl": "",
+			"fragment": "app-dev",
+			"subcategories": [{
+					"title": "Microservices",
+					"description": "",
+					"logoUrl": "",
+					"fragment": "microservices",
+					"solutions": [{
+							"title": "API Design and Implementation",
+							"description": "",
+							"logoUrl": "",
+							"githubUrl": "https://rawgit.com/emilygit/cloudnative-demo/microservices/api-design",
+							"fragment": "api-design-implementation",
+							"overview": {
+								"title": "introduction to",
+								"file": "readme.md"
+							}
+						},
+						{
+							"title": "GRPC and Protocol Buffers",
+							"description": "",
+							"logoUrl": "",
+							"githubUrl": "",
+							"overview": {}
+						}
+					]
+				},
+				{
+					"title": "Package Management",
+					"description": "",
+					"logoUrl": "",
+					"solutions": []
+				}
+			]
+		},
+		{
+			"title": "Distributed Systems Management",
+			"description": "",
+			"logoUrl": "",
+			"subcategories": []
+		}
+	],
+
+	"features": [{
+			"title": "Featuring API Design and Implementation!",
+			"description": "<strong>Some things</strong> are good ideas for any API. The goal of most of them is to make it easy for your user (often yourself!) to guess what something does and how to use it without having to look at docs.",
+			"ctaText": "learn more",
+			"ctaUrl": "https://rawgit.com/emilygit/cloudnative-demo//microservices/api-design/demos/alphafourjs"
+		},
+		{
+			"title": "Build a sweet game!",
+			"description": "Get your butt kicked by your own Connect Four script. While you're at it, grab another Diet Mountain Dew. You deserve it, pal!",
+			"ctaText": "Learn me up!",
+			"ctaUrl": "https://rawgit.com/emilygit/cloudnative-demo/demos/alphafourjs"
+		}
+	]
+}
